@@ -1,0 +1,33 @@
+{
+  "name": "jest-workshop",
+  "version": "1.0.0",
+  "description": "Nordic Testing Days 2019",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "jest  --config=api.config.js",
+    "test:app": "jest  --config=app.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blanche2018/Jest-Workshop.git"
+  },
+  "keywords": [
+    "Nordic",
+    "Testing",
+    "Days"
+  ],
+  "author": "Blanche Carstens and Calvin Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blanche2018/Jest-Workshop/issues"
+  },
+  "homepage": "https://github.com/Blanche2018/Jest-Workshop#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "jest": "^24.5.0",
+    "jest-image-snapshot": "^2.8.1",
+    "prettier": "^1.16.4",
+    "puppeteer": "^1.14.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
