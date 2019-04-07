@@ -71,9 +71,9 @@ Object {
 `);
   });
 
-  test('Complex matcher', async() => {
+  test("Complex matcher", async () => {
     const response = await rp({
-      uri: 'https://api.publicapis.org/entries?Category=Books&https=true',
+      uri: "https://api.publicapis.org/entries?Category=Books&https=true",
       json: true,
       resolveWithFullResponse: true,
       rejectUnauthorized: false
@@ -85,9 +85,9 @@ Object {
           Auth: expect.stringMatching(/^OAuth|apiKey|$/),
           Category: expect.any(String),
           Cors: expect.any(String),
-          HTTPS: true,//expect.any(Boolean),
-        }),
-      ]),
+          HTTPS: true,//expect.any(Boolean)
+        })
+      ])
     });
   });
 });
