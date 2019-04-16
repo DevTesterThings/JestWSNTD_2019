@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Advanced - UI Component Test/button";
+import Button from "../../button";
 import { mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import chaiEnzyme from 'chai-enzyme';
