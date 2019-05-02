@@ -1,7 +1,7 @@
 import rp from "request-promise-native";
 
-describe('API Snapshot', () => {
-  test('Initial snapshot', async () => {
+describe("API Snapshot", () => {
+  test.skip("Initial snapshot", async () => {
     const response = await rp({
       uri: 'https://api.publicapis.org/entries?Category=Books&https=true',
       json: true,
@@ -71,7 +71,7 @@ Object {
 `);
   });
 
-  test("Complex matcher", async () => {
+  test.skip("Complex matcher", async () => {
     const response = await rp({
       uri: "https://api.publicapis.org/entries?Category=Books&https=true",
       json: true,

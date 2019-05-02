@@ -8,7 +8,7 @@ import chai, { expect } from 'chai';
 configure({ adapter: new Adapter() });
 chai.use(chaiEnzyme());
 
-it("react component shallow render", () => {
+it.skip("react component shallow render", () => {
   const button = mount(
     <Button
       isDisabled={true}
