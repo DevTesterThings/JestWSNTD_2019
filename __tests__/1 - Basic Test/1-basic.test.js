@@ -2,6 +2,6 @@ function sum(a, b, c, d) {
   return a + b + c + d;
 }
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum('Nordic ', 'Testing ', 'Days ', '2019')).toBe('Nordic Testing Days 2019');
-});
+test('Joins words to forms a sentence', () => {
+  expect(sum('Code ', 'X ', 'is', 'AWESOME!')).toBe('Code X is AWESOME!');
+});s

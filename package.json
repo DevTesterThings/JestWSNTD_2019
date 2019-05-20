@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Blanche2018/Jest-Workshop.git"
+    "url": "git+https://github.com/DevTesterThings/JestWS_CodeX"
   },
   "keywords": [
     "Nordic",
@@ -18,9 +18,9 @@
   "author": "Blanche Carstens and Calvin Moore",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Blanche2018/Jest-Workshop/issues"
+    "url": "https://github.com/DevTesterThings/JestWS_CodeX/issues"
   },
-  "homepage": "https://github.com/Blanche2018/Jest-Workshop#readme",
+  "homepage": "https://github.com/DevTesterThings/JestWS_CodeX#readme",
   "dependencies": {
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
