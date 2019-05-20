@@ -3,7 +3,7 @@ import puppeteer from 'puppeteer';
 
 expect.extend({ toMatchImageSnapshot });
 
-test('Application Snapshot', async () => {
+test.skip('Application Snapshot', async () => {
   const browser = await puppeteer.launch(/*{ devtools: true }*/);
   const page = await browser.newPage();
   await page.setViewport({ width: 1024, height: 2000 });

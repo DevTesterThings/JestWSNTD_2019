@@ -1,6 +1,6 @@
 import rp from "request-promise-native";
 
-test.only("Complex matcher", async () => {
+test.skip("Complex matcher", async () => {
   const response = await rp({
     uri: "https://api.publicapis.org/entries?Category=Books",
     json: true,
