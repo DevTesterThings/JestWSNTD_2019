@@ -1,7 +1,7 @@
-function sum(a, b, c, d) {
-  return a + b + c + d;
+function sum(a, b, c) {
+  return a + b + c;
 }
 
 test('Joins words to forms a sentence', () => {
-  expect(sum('Code ', 'X ', 'is', 'AWESOME!')).toBe('Code X is AWESOME!');
-});s
+  expect(sum('NTD ', 'is ', 'AWESOME!')).toBe('NTD is AWESOME!');
+});
