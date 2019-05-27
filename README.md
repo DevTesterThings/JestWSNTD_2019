@@ -3,7 +3,7 @@ An interactive workshop about the many uses of Jest
 
 Clone the repo:
 ---------------
-git clone https://github.com/DevTesterThings/JestWS_CodeX.git
+git clone https://github.com/DevTesterThings/JestWSNTD_2019.git
 
 Move to Project:
 -----------------

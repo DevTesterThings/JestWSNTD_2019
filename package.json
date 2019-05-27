@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevTesterThings/JestWS_CodeX"
+    "url": "git+https://github.com/DevTesterThings/JestWSNTD_2019"
   },
   "keywords": [
     "Nordic",
@@ -18,9 +18,9 @@
   "author": "Blanche Carstens and Calvin Moore",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DevTesterThings/JestWS_CodeX/issues"
+    "url": "https://github.com/DevTesterThings/JestWSNTD_2019/issues"
   },
-  "homepage": "https://github.com/DevTesterThings/JestWS_CodeX#readme",
+  "homepage": "https://github.com/DevTesterThings/JestWSNTD_2019.git#readme",
   "dependencies": {
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
