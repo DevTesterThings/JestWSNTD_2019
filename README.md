@@ -19,7 +19,7 @@ To run a test/s:
 ```bash
 $ npm run test
 $ npm run test -- --watchAll
-$ npm run test --coverage
+$ npm run test -- --coverage
 ```
 
 ---------------
